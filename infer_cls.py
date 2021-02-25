@@ -129,7 +129,7 @@ if __name__ == '__main__':
 
 
         # read groundtruth map
-        gt_folder_path = os.path.join(args.voc12_root, 'SegmentationClassAug')
+        gt_folder_path = os.path.join(args.voc12_root, 'SegmentationClass')
         gt_map_path = os.path.join(gt_folder_path, img_name + '.png')
         gt_map = cv2.imread(gt_map_path, cv2.IMREAD_GRAYSCALE)
         gt_list.append(gt_map)
